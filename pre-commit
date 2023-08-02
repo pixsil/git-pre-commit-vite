@@ -1,0 +1,31 @@
+#!/bin/bash
+
+
+#!/bin/bash
+
+#!/usr/bin/env bash
+#PHP=`which php`
+/usr/local/bin/php .git/hooks/pre-commit.php
+
+#while read line; do
+#    file = "$line" | grep '^"file"'
+#    echo "$line"
+#
+##    if git status --short | grep '^"file"' | grep $line ; then
+##        echo "need compile for $line"
+##        do_compile=1
+##    fi
+#done <public/build/manifest.json
+
+
+## get the files
+#files="$(sed '1d;$d' public/build/manifest.json | sed -e 's|g')"
+#
+## rm first and last line | remover everything behinnd the : | remove the part in the front | foreach
+#while read -r line ; do
+#    echo "$line"
+#    if git status --short | grep $line ; then
+#        echo "need compile for $line"
+#        do_compile=1
+#    fi
+#done <<<"$(echo -e "$files")"

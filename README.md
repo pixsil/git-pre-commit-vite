@@ -1,4 +1,4 @@
-# pre-commit file for npm run production in Laravel - Webpack version
+# Build Vite application automatically by commit
 
 This is the Vite version for build your vite automatically by commiting your code to the repo.
 

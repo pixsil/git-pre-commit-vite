@@ -27,8 +27,8 @@ Place the both files in your hooks dir inside the .git directory. That's all!
 Quick install from root folder project:
 ```
 mkdir -p .git/hooks
-&& wget -O .git/hooks/pre-commit https://raw.githubusercontent.com/pixsil/git-pre-commit-vite/main/pre-commit
-&& wget -O .git/hooks/pre-commit.php https://raw.githubusercontent.com/pixsil/git-pre-commit-vite/main/pre-commit.php
-&& chmod +x .git/hooks/pre-commit
-&& chmod +x .git/hooks/pre-commit.php
+wget -O .git/hooks/pre-commit https://raw.githubusercontent.com/pixsil/git-pre-commit-vite/main/pre-commit
+wget -O .git/hooks/pre-commit.php https://raw.githubusercontent.com/pixsil/git-pre-commit-vite/main/pre-commit.php
+chmod +x .git/hooks/pre-commit
+chmod +x .git/hooks/pre-commit.php
 ```
